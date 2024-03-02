@@ -1,0 +1,109 @@
+.container{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    animation-name: anime;
+    animation-duration: 3s;
+    
+
+}
+@keyframes anime
+{
+    from{
+        background-color: darkkhaki;
+
+    }
+    to{
+        background-color: cyan;
+       height: 300px;
+       width: 400px;
+    }
+}
+.container1{
+    border: solid 2px black;
+    height: 200px;
+    width: 300px;
+    animation-name: animes;
+    animation-duration: 10s;
+}
+    @keyframes animes
+    {
+        from{
+            background-color: rgb(109, 108, 97);
+    
+        }
+        to{
+            background-color: rgb(82, 109, 109);
+           border-radius: 50%;
+
+        }
+        to{
+            background-color: brown;
+            height: 200px;
+            width: 200px;
+        }
+    }
+.box{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    animation-name: box;
+    animation-duration: 12s;
+    background-color: orange;
+
+}
+
+@keyframes box {
+    0%{
+        background-color: blue;
+
+    }
+    30%{
+        background-color: white;
+    }
+    50%{
+        background-color: darkgreen;
+        
+
+    }
+}
+.box:hover{
+
+    border: dotted 3px red;
+    height: 500px;
+
+
+}
+.boxes{
+    border: solid 5px grey;
+    height: 200px;
+    width: 200px;
+    animation-name: boxx;
+    animation-duration: 5s;
+    background-color: yellow;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes boxx{
+    0%{
+      border-radius: 0%;
+
+    }
+    25%{
+      
+        border-radius: 0%;
+        width: 400px;
+    }
+    50%{
+        border-radius: 50%;
+        width: 400px;
+        
+    }
+    75%{
+        border-radius: 75%;
+    }
+    100%{
+      border-radius: 100%;
+}
+}

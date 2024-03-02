@@ -1,0 +1,97 @@
+.container{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background-image:radial-gradient(red, blue, grey, green);
+   
+    border-radius: 50%;
+    animation-name: cons;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 2s;
+   
+   transform: none;
+}
+@keyframes cons{
+    0%{
+        top: 0px;
+        left: 0px;
+        position: relative;
+
+
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+        position: relative;
+
+    }
+    75%{
+        top: 500px;
+        left: 500px;
+
+    }
+    100%{
+        top: 500px;
+        left: 0px;
+        position: relative;
+    }
+}
+.c1{
+
+    border: solid;
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(yellow blue violet black );
+    animation-name: c1;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 11s;
+
+    {
+        @keyframes c1{
+
+        
+        0%{
+            top: 0px;
+            left: 0px;
+            position: relative;
+    
+    
+        }
+        25%{
+            top: 0px;
+            left: 500px;
+            position: relative;
+    
+        }
+        75%{
+            top: 500px;
+            left: 500px;
+    
+        }
+        100%{
+            top: 500px;
+            left: 0px;
+            position: relative;
+        }
+    }
+    }
+}
+.con{
+    border: solid 2px;
+    height: 100px;
+    width: 100px;
+    background:  radial-gradient(red,white,red);
+
+    animation-name: rotate;
+    animation-duration: 13s;
+
+}
+@keyframes rotate{
+    50%{
+        background: radial-gradient(white,red,white);
+        transform: rotate(10turn) ;
+    }
+ 
+}
